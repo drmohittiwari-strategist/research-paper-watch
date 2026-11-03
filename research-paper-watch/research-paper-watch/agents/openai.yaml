@@ -1,0 +1,14 @@
+interface:
+  display_name: Research Paper Watch
+  short_description: Find, assess and track relevant journal papers
+  default_prompt: Use $research-paper-watch to configure a research shortlist with
+    journal filters, important authors, ratings and scheduled updates.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
